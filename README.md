@@ -1,4 +1,4 @@
-# Mineclone 2 (5) MoreFood mod [mcl_morefood]
+# Mineclone 2 (5) More Food mod [mcl_morefood]
 This mod adds five more food items to the Mineclone 2 (5) game!
 ![Screenshot](/screenshot.png)
 
