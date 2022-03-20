@@ -1,0 +1,6 @@
+# textdomain: mcl_morefood
+Sandwich=
+Chocolate Bar=
+Fried Egg=
+Cheese=
+Sweet Berry Pie=

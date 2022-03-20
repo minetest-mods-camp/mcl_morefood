@@ -1,6 +1,6 @@
 -- Mineclone 2 (5) MoreFood mod
 -- by rudzik8
--- Licensed under Unlicense
+-- Licensed under Unlicense, more info here: <https://unlicense.org/>
 
 local S = minetest.get_translator(minetest.get_current_modname())
 local mofood_longdesc = S("This is a food item which can be eaten.")
@@ -14,9 +14,8 @@ minetest.register_craftitem("mcl_morefood:sandwich", {
 	on_place = minetest.item_eat(14),
 	on_secondary_use = minetest.item_eat(14),
 })
-
 minetest.register_craftitem("mcl_morefood:chocolate_bar", {
-	description = S("Chocolate bar"),
+	description = S("Chocolate Bar"),
 	_doc_items_longdesc = mofood_longdesc,
 	inventory_image = "mcl_morefood_chocolate_bar.png",
 	groups = {food=2, eatable=6},
@@ -24,9 +23,8 @@ minetest.register_craftitem("mcl_morefood:chocolate_bar", {
 	on_place = minetest.item_eat(6),
 	on_secondary_use = minetest.item_eat(6),
 })
-
 minetest.register_craftitem("mcl_morefood:fried_egg", {
-	description = S("Fried egg"),
+	description = S("Fried Egg"),
 	_doc_items_longdesc = mofood_longdesc,
 	inventory_image = "mcl_morefood_fried_egg.png",
 	groups = {food=2, eatable=8},
